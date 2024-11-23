@@ -13,6 +13,8 @@ fetch('https://sismadi.github.io/kodein/data.json')
         console.log(data.data);
         console.log(data.data[0].id);
         console.log(data.data[1].nama);
+      nah=data.data[1].nama;
+      alert(nah);
     })
     .catch(error => {
         console.error("Error fetching data:", error);
