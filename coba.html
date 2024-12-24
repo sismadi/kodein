@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://donat.id/donat/donat.css" async>
+<title>Aplikasi DonatJS</title>
+</head>
+<body>
+<div id="content"> Hello Donat </div>
+    <div class='row' id='datatable'> </div>
+
+  
+<script src="https://donat.id/donat/donat.js"></script>
+<script>
+
+datatable = {"id":1,"mod":"datatable","induk":"datatable","nama":"datatable","css":"row shadow","data":[{"id":1,"nama":"ktupad","isi":20,"icon":"ktupad","url":"mod.js?mod/load"},{"id":2,"nama":"bayam","isi":30,"icon":"bayam","url":"mod.js?mod/load"},{"id":3,"nama":"donat","isi":50,"icon":"donat","url":"mod.js?mod/load"}],"rpp":5,"page":1,"fld":"id,nama"};
+document.getElementById('datatable').innerHTML=d.view.datatable(datatable);
+
+  
+  </script>
+</body>
+</html>
